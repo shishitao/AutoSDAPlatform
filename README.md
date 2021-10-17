@@ -9,7 +9,7 @@ May 1, 2021: AutoSDA now has been updated to generate the design using non-RBS c
 
 ### Reference:
 
-[1] Guan, X., Burton, V., Sabol, T. (2020). Python-based computational platform to automate seismic design, nonlinear structural model construction and analysis of steel moment resisting frames. Engineering Structures, 224, 111199.
+[1] Guan, X., Burton, V., Sabol, T. (2020). Python-based computational platform to automate seismic design, nonlinear structural model construction and analysis of steel moment resisting frames. Engineering Structures, 224, 111199.(https://github.com/shishitao/references/files/7360640/2020.-.Guan.X.Burton.V.Sabol.T.-.Python-based.computational.platform.to.automate.seismic.design.nonlinear.structural.model.construction.and.analysis.of.steel.moment.resisting.frames.Engineering.Structures.22.pdf)
 
 ### Prerequisites:
 
