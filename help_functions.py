@@ -218,7 +218,7 @@ def calculate_Cs_coefficient(SDS, SD1, S1, T, TL, R, Ie, for_drift):
     return Cs
 
 
-def determine_k_coeficient(period):
+def determine_k_coefficient(period):
     """
     This function is used to determine the coefficient k based on ASCE 7-10 Section 12.8.3
     :param period: building period;
