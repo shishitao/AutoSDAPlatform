@@ -13,7 +13,7 @@ from help_functions import calculate_DBE_acceleration
 from help_functions import determine_Cu_coefficient
 from help_functions import determine_floor_height
 from help_functions import calculate_Cs_coefficient
-from help_functions import determine_k_coeficient
+from help_functions import determine_k_coefficient
 from help_functions import calculate_seismic_force
 from help_functions import find_section_candidate
 from help_functions import search_member_size
@@ -240,7 +240,7 @@ class Building(object):
         base_shear_for_strength = Cs_for_strength * np.sum(self.gravity_loads['floor weight'])
         base_shear_for_drift = Cs_for_drift * np.sum(self.gravity_loads['floor weight'])
         # Call function defined in "help_functions.py" to compute k coefficient
-        k = determine_k_coeficient(self.elf_parameters['period'])
+        k = determine_k_coefficient(self.elf_parameters['period'])
         # Call function defined in "help_functions.py" to determine the lateral force for each floor level
         lateral_story_force_for_strength, story_shear_for_strength \
             = calculate_seismic_force(base_shear_for_strength, self.gravity_loads['floor weight'], \
